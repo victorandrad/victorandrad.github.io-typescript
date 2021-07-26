@@ -12,7 +12,11 @@
           "name": "instagram",
           "url": "https://www.instagram.com/victorandra.de",
           "class": "fab fa-instagram"
-        }
+        },
+          "name": "whatsapp",
+          "url": "https://api.whatsapp.com/send?phone=+5511957141827",
+          "class": "fab fa-whatsapp"
+        },
       ],
       "image": "myProfile.jpg"
     },
