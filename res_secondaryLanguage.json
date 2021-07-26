@@ -1,0 +1,73 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Victor Andrade. I work with Angular and React front-end frameworks and Laravel back-end framework. What you are seeing is my website and my personal portfolio that contains some experiences and skills. If you liked what you saw please contact me at victor.andrade62@hotmail.com :) Thanks 💜💚",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Podcastr",
+        "startDate": "2021",
+        "description": "It is an application developed in ReactJS through NLW # 5, where NextJS was integrated to generate static pages, in this application concepts of state, routes, components and contexts were used. It is basically an application for listening to podcasts with a player controller, and displaying details of the podcast.",
+        "images": [
+          "images/portfolio/podcastr/p1.png",
+          "images/portfolio/podcastr/p2.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Followize",
+        "title": "Back-End Developer",
+        "years": "03.2021 - present",
+        "class": "fa-php", 
+        "mainTech": [
+          "PHP"
+        ],
+        "technologies": [
+          "REST API",
+          "CQRS",
+          "Laravel",
+          "Commands",
+          "Queries",
+          "Postgres",
+          "Gitflow"
+        ]
+      },
+      {
+        "company": "Nano Incub",
+        "title": "Mobile App Developer",
+        "years": "07.2018 - 02.2021",
+        "class": "fa-angular", 
+        "mainTech": [
+          "Angular and PHP"
+        ],
+        "technologies": [
+          "TypeScript",
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "Ionic Framework",
+          "Repository Pattern",
+          "MySQL",
+          "Gitflow"
+        ]
+      }
+    ]
+  }
