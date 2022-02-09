@@ -1,73 +1,90 @@
 {
-    "basic_info": {
-      "description_header": "Oi",
-      "description": "👋 Eu sou o Victor Andrade. Eu trabalho com os frameworks front-end Angular e React e framework back-end Laravel. O que você está vendo é meu site e meu portfólio pessoal que contém algumas experiências e skills. Se você gostou do que você viu entre em contato comigo pelo victor.andrade62@hotmail.com :) Obrigado 💜💚",
-      "section_name": {
-        "about": "Sobre mim",
-        "projects": "Projetos",
-        "skills": "Skills",
-        "experience": "Experiência"
-      }
+  "basic_info": {
+    "description_header": "Oi",
+    "description": "👋 Eu sou o Victor Andrade. Eu trabalho com os frameworks front-end Angular e React e framework back-end Laravel. O que você está vendo é meu site e meu portfólio pessoal que contém algumas experiências e skills. Se você gostou do que você viu entre em contato comigo pelo victor.andrade62@hotmail.com :) Obrigado 💜💚",
+    "section_name": {
+      "about": "Sobre mim",
+      "projects": "Projetos",
+      "skills": "Skills",
+      "experience": "Experiência"
+    }
+  },
+  "projects": [
+    {
+      "title": "Podcastr",
+      "startDate": "2021",
+      "description": "É uma aplicação desenvolvida em ReactJS através da NLW#5, onde foi integrado o NextJS para gerar páginas estáticas, nessa aplicação foram usados conceitos de estado, rotas, componentes e contextos. É basicamente um aplicativo para ouvir podcasts com controlador de player, e exibir detalhes do podcast.",
+      "images": [
+        "images/portfolio/podcastr/p1.png",
+        "images/portfolio/podcastr/p2.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "ReactJS"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Grupo GFT",
+      "title": "Desenvolvedor Front-End",
+      "years": "02.2022 - o momento",
+      "class": "fa-angular",
+      "mainTech": [
+        "Angular"
+      ],
+      "technologies": [
+        "Angular",
+        "Gitflow",
+        "Micro front-end",
+        "Reatividade",
+        "RxJS"
+      ]
     },
-    "projects": [
-      {
-        "title": "Podcastr",
-        "startDate": "2021",
-        "description": "É uma aplicação desenvolvida em ReactJS através da NLW#5, onde foi integrado o NextJS para gerar páginas estáticas, nessa aplicação foram usados conceitos de estado, rotas, componentes e contextos. É basicamente um aplicativo para ouvir podcasts com controlador de player, e exibir detalhes do podcast.",
-        "images": [
-          "images/portfolio/podcastr/p1.png",
-          "images/portfolio/podcastr/p2.png"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "ReactJS"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "Followize",
-        "title": "Desenvolvedor Back-End",
-        "years": "03.2021 - o momento",
-        "class": "fa-php", 
-        "mainTech": [
-          "PHP"
-        ],
-        "technologies": [
-          "REST API",
-          "CQRS",
-          "Laravel",
-          "Commands",
-          "Queries",
-          "Postgres",
-          "Gitflow"
-        ]
-      },
-      {
-        "company": "Nano Incub",
-        "title": "Programador de aplicativos móveis",
-        "years": "07.2018 - 02.2021",
-        "class": "fa-angular", 
-        "mainTech": [
-          "Angular e PHP"
-        ],
-        "technologies": [
-          "TypeScript",
-          "Laravel",
-          "PHP",
-          "JavaScript",
-          "Ionic Framework",
-          "Repository Pattern",
-          "MySQL",
-          "Gitflow"
-        ]
-      }
-    ]
-  }
+    {
+      "company": "Followize",
+      "title": "Desenvolvedor Front-End",
+      "years": "03.2021 - 01.2022",
+      "class": "fa-angular",
+      "mainTech": [
+        "Angular"
+      ],
+      "technologies": [
+        "REST API",
+        "CQRS",
+        "Laravel",
+        "Angular",
+        "Commands",
+        "Queries",
+        "Postgres",
+        "Gitflow"
+      ]
+    },
+    {
+      "company": "Nano Incub",
+      "title": "Programador de aplicativos móveis",
+      "years": "07.2018 - 02.2021",
+      "class": "fa-angular",
+      "mainTech": [
+        "Angular e PHP"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Laravel",
+        "PHP",
+        "JavaScript",
+        "Ionic Framework",
+        "Repository Pattern",
+        "MySQL",
+        "Gitflow"
+      ]
+    }
+  ]
+}
