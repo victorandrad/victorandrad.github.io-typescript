@@ -2,6 +2,7 @@
   "name": "victorandrade",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://victorandra.de",
   "dependencies": {
     "@deadcoder0904/react-typical": "^0.1.2",
     "@testing-library/jest-dom": "^5.14.1",
